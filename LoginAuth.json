@@ -1,0 +1,200 @@
+{
+  "cookies": [
+    {
+      "name": "country",
+      "value": "PH",
+      "domain": "www.747-6.com",
+      "path": "/",
+      "expires": 1719230740.887498,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": ".IjopVPup95hRYLCLkMlcj1zzCH1UBoFkJ6YLhmsWmc-1719229836-1.0.1.1-iMvNkdmKrtuMgRJ4OGEogs094eb9RRWC2jUaMwIaHbyDzX616RVwH59KbtCJyAAPaNPMo2qBqDHHM.eBoXJ9lw",
+      "domain": ".747-6.com",
+      "path": "/",
+      "expires": 1719231635.506489,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "URC5gcOdKttMDlGntyGn_jY9S8C17rc4EOdsl6pryT8-1719229836-1.0.1.1-ci6k2MhxkzBPBn5645zDSjGhVeBr0R3scgM0DdKj46oKJqcqIjxYROfPwzmL.87uqgac6_d7M1ClrW857Mwrfw",
+      "domain": ".springbuilder.site",
+      "path": "/",
+      "expires": 1719231635.612208,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1099804349.1719229836",
+      "domain": ".747-6.com",
+      "path": "/",
+      "expires": 1753789836.258262,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_9L1YMBDYHC",
+      "value": "GS1.1.1719229836.1.0.1719229836.0.0.0",
+      "domain": ".747-6.com",
+      "path": "/",
+      "expires": 1753789836.397801,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "xTtsonhjtVu80OALqPyDYaRRAy9p4omCeBSj44TxBKA-1719229839-1.0.1.1-gptelFzcHx8rMCiQ35Wo1Nzy5YvCDlzFuBLLBeWYjAnjPyO8YLLglbq2lhgyFGW5F02ELzYOb56fBlPwznTMrg",
+      "domain": ".trexname.com",
+      "path": "/",
+      "expires": 1719231638.941994,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_immortal|user-hash",
+      "value": "Kghhyf31I9c5uuYKvVnRlmQeMwq1Iuwyp6O2",
+      "domain": "www.747-6.com",
+      "path": "/",
+      "expires": 1750765839,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "LaVisitorNew",
+      "value": "Y",
+      "domain": "www.747-6.com",
+      "path": "/",
+      "expires": 1719316239,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "LaVisitorId_bGl2ZTc0Ny5sYWRlc2suY29tLw",
+      "value": "j6zzcighlzkkvywfhgshcenukowij",
+      "domain": ".747-6.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "LaSID",
+      "value": "7tkvs0u7rcid9l9eaf0j03sle3nua",
+      "domain": "www.747-6.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "LaUserDetails",
+      "value": "%7B%7D",
+      "domain": "www.747-6.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "userGroupsIds",
+      "value": "1",
+      "domain": "www.747-6.com",
+      "path": "/",
+      "expires": 1719316244,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sbuser",
+      "value": "%7B%22id%22%3A58072100%2C%22email%22%3A%22cypress%40gmail.com%22%2C%22username%22%3A%22cy_press%22%2C%22balance%22%3A117.72%2C%22city%22%3A%22manila%22%2C%22deposit_count%22%3A36%2C%22phone%22%3A%22123456789%22%2C%22swift_code%22%3Anull%2C%22zip_code%22%3Anull%2C%22address%22%3A%22manila%2C%20Philippines%22%2C%22birth_city%22%3Anull%2C%22birth_region%22%3Anull%2C%22casino_balance%22%3Anull%2C%22bonus_balance%22%3A0%2C%22bonus_win_balance%22%3A0%2C%22currency_id%22%3A%22PHP%22%2C%22country_code%22%3A%22PH%22%2C%22first_name%22%3A%22test%22%2C%22last_name%22%3A%22me%22%2C%22frozen_balance%22%3A0%2C%22name%22%3A%22test%20me%22%2C%22userGroups%22%3A%221%22%2C%22is_verified%22%3Afalse%7D",
+      "domain": "www.747-6.com",
+      "path": "/",
+      "expires": 1719316244,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "auth_token",
+      "value": "2B1386E2F84643310D2DE0EA032AF259",
+      "domain": "www.747-6.com",
+      "path": "/",
+      "expires": 1719316244,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.747-6.com",
+      "localStorage": [
+        {
+          "name": "g_recaptcha_version",
+          "value": "3"
+        },
+        {
+          "name": "g_recaptcha_site_key",
+          "value": "6LdZqhEaAAAAAGZ2reIRY2HaapHuv_TgdBpA_1hD"
+        },
+        {
+          "name": "g_recaptcha_enabled",
+          "value": "true"
+        },
+        {
+          "name": "qr_secret_key",
+          "value": "null"
+        },
+        {
+          "name": "secret_key",
+          "value": "null"
+        },
+        {
+          "name": "user_currency_rounding",
+          "value": "2"
+        },
+        {
+          "name": "auth_user",
+          "value": "true"
+        },
+        {
+          "name": "algoliasearch-client-js",
+          "value": "{}"
+        },
+        {
+          "name": "_immortal|user-hash",
+          "value": "Kghhyf31I9c5uuYKvVnRlmQeMwq1Iuwyp6O2"
+        },
+        {
+          "name": "auth_data",
+          "value": "{\"auth_token\":\"2B1386E2F84643310D2DE0EA032AF259\",\"user_id\":58072100,\"avatarUrl\":null}"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.recaptcha.net",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "MXVheHd6azF5eTJ6cjE="
+        }
+      ]
+    }
+  ]
+}
