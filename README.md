@@ -1,7 +1,7 @@
 Playwright Test Suite
 
 Overview
-  This project is a comprehensive test suite using Playwright with the following best practices applied:
+This project is a comprehensive test suite using Playwright with the following best practices applied:
 
 1. Page Object Model Design Pattern: Organized and maintainable code structure.
 2. Visual Comparison Using Screenshots: Ensures visual accuracy by comparing screenshots.
@@ -15,7 +15,7 @@ Overview
 How to Run
 
 Prerequisite
-  Node.js is installed on your machine.
+Node.js is installed on your machine.
 Steps to Run the Tests
-  1. Install Playwright: npm init playwright@latest
-  2. Run the Tests: npx playwright test <name-of-spec-file>
+1. Install Playwright: npm init playwright@latest
+2. Run the Tests: npx playwright test <name-of-spec-file>
