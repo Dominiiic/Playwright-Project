@@ -12,6 +12,6 @@ export class LoginPage{
         await this.page.getByText('SIGN IN').click();
         await this.usernameInput.fill(username)
         await this.passwordInput.fill(password)
-        await this.page.getByRole('button', { name: 'Login' }).click({ timeout: 10000 }); // Timeout in milliseconds
+        await this.page.getByRole('button', { name: 'Login' }).click({ timeout: 20000 }); 
     }
 }

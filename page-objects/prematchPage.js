@@ -1,9 +1,8 @@
-import { Page } from '@playwright/test';
-import { TIMEOUT } from 'dns';
+import { BasePage } from "./basePage";
 
-export class PrematchPage{
+export class PrematchPage extends BasePage{
     constructor(page){
-        this.page = page;
+        super(page)
         this.userBalanceLocator = page.locator('.money .userBalance');
         this.insufficientFundError = page.getByText('Insufficient funds. Please go');  
         this.betButton = page.locator('.btn.place-bet-btn.btn1');
@@ -41,10 +40,13 @@ export class PrematchPage{
 
     }
 
-    async cashoutOpenBet(){
-        await this.page.getByText('Open Bets').click();
-        await this.cashoutButtonLocator.click();
-        //await this.page.locator('.account-popup-body-container', { hasText: 'Cashout' });
-        await this.page.locator('a.button-cash-out', { hasText: 'Cashout'}).click();
+    async searchSports(sports){
+        await this.page.getByPlaceholder('Search', { exact: true }).fill(sports);
+        this.suggestions = this.page.locator('.search-results-sport ul li', { hasText: sports });
     }
+
+    getSuggestions() {
+        return this.suggestions;
+    }
+
 }

@@ -2,7 +2,8 @@ import {expect, test} from '@playwright/test'
 import { LoginPage } from '../page-objects/loginPage';
 import 'dotenv/config';
 
-test.describe.configure({ mode: 'parallel' }); //tests within the test file is configured and running in parallel
+//tests within the test file is configured and running in parallel
+test.describe.configure({ mode: 'parallel' }); 
 
 test.describe('Login', () => {
   let loginTo;
