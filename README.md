@@ -17,7 +17,7 @@ How to Run
 
 Prerequisite
 
-Node.js is installed on your machine.
+  Node.js is installed on your machine.
 
 Steps to Run the Tests
 
