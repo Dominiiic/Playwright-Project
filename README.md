@@ -15,9 +15,7 @@ This project is a comprehensive test suite using Playwright with the following b
 
 How to Run
 
-Prerequisite
-
-  Node.js is installed on your machine.
+Prerequisite: Node.js is installed on your machine.
 
 Steps to Run the Tests
 
