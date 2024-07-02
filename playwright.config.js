@@ -8,7 +8,7 @@ module.exports = defineConfig({
   globalSetup: './globalSetup',
   testDir: './tests',
   /* Run tests in files in parallel */
-  fullyParallel: false,
+  fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
@@ -36,7 +36,7 @@ module.exports = defineConfig({
       testIgnore: '**/login.spec.js',
     },
 
-    /*{
+    {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
     },
@@ -44,7 +44,7 @@ module.exports = defineConfig({
     {
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
-    },*/
+    },
 
     /* Test against mobile viewports. */
     /* {
@@ -56,12 +56,12 @@ module.exports = defineConfig({
        use: { ...devices['iPhone 12'] },
      },*/
   ],
-
-  /* Run your local dev server before starting the tests */
+/*
    webServer: {
      command: 'npm run start',
      url: 'http://127.0.0.1:3000',
      reuseExistingServer: !process.env.CI,
-   },
+   }, 
+   */
 });
 

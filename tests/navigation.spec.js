@@ -15,48 +15,40 @@ test.describe('Navigation Page Tests', () => {
   test('should navigate to Live page', async ({ page }) => {
     await navigateTo.livePage();
     await expect(page).toHaveURL(/.*live/); 
-    await page.screenshot();
   });
 
   test('should navigate to Prematch page', async ({ page }) => {
     await navigateTo.prematchPage();
     await expect(page).toHaveURL(/.*prematch/); 
-    await page.screenshot();
   });
 
   test('should navigate to Casino page', async ({ page }) => {
     await navigateTo.casinoPage();
     await expect(page).toHaveURL(/.*casino/); 
-    await page.screenshot();
   });
 
   test('should navigate to Live Casino page', async ({ page }) => {
     await navigateTo.liveCasinoPage();
     await expect(page).toHaveURL(/.*live-casino/); 
-    await page.screenshot();
   });
 
   test('should navigate to Virtual sports page', async ({ page }) => {
     await navigateTo.virtualSportPage();
     await expect(page).toHaveURL(/.*virtual-sport/); 
-    await page.screenshot();
   });
 
   test('should navigate to 747 page', async ({ page }) => {
     await navigateTo.live747();
     await expect(page).toHaveURL(/.*747/); 
-    await page.screenshot();
   });
 
   test('should navigate to Casino Tournaments page', async ({ page }) => {
     await navigateTo.casinoTournaments();
     await expect(page).toHaveURL(/.*casino-tournaments/); 
-    await page.screenshot();
   });
 
   test('should navigate to Sports Tournaments page', async ({ page }) => {
     await navigateTo.sportsTournaments();
     await expect(page).toHaveURL(/.*sports-tournaments/); 
-    await page.screenshot();
   });
 });
