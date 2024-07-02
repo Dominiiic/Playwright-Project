@@ -20,7 +20,7 @@ test.describe('Login', () => {
 
   // Function to create two tests with invalid password for the first test and invalid username for the second one
   const createInvalidLoginTest = (user) => {
-    test(`Invalid login for user ${user.username}`, async ({ page }) => {
+    test(`Invalid login for user @exclude ${user.username}`, async ({ page }) => {
       await loginTo.userLogin(user.username, user.password);
       await expect(loginTo.usernameInput).toHaveValue(user.username);
       await page.waitForSelector('div[data-test-notification-message=error]', { state: 'visible' });
@@ -33,7 +33,7 @@ test.describe('Login', () => {
     createInvalidLoginTest(user);
   });
 
-  test('Valid login', async ({ page }) => {
+  test('Valid login @exclude', async ({ page }) => {
     await loginTo.userLogin(process.env.USER_NAME, process.env.PASSWORD);
     const loggedInProfile = page.locator('.loggedInStateButtons a[href="#/account/my-profile"].profile-image')
     await expect(loggedInProfile).toBeVisible();

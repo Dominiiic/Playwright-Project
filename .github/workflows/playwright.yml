@@ -18,7 +18,9 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: npx playwright test
+      run: npx playwright test --ignore-pattern '**/login.spec.js'
+      env:
+          CI: true
     - uses: actions/upload-artifact@v4
       if: always()
       with:

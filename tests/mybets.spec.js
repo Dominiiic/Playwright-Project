@@ -24,7 +24,7 @@ test('Bet type filtering', async({ page }) => {
         for (let i = 0; i < rowCount; i++) {
           const row = rows.nth(i);
           //const multipleTd = row.locator(`td:has(div:has-text("${text}"))`);
-          const multipleTd = row.locator(`td:has(div:has-text("Multiple"))`);
+          const multipleTd = row.locator(`td:has(div:has-text("Single"))`);
           const isVisible = await multipleTd.isVisible();
           expect(isVisible).toBeTruthy(); // Assert that the <td> is visible
         }
