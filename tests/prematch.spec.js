@@ -27,7 +27,7 @@ test.describe('Prematch betting', () => {
     await onPrematchPage.clickBetButton();
 
     // Wait for some time to ensure balance update is reflected(better to use than waitForSelector because it can handle the balance update)
-    await page.waitForTimeout(6000);
+    await page.waitForTimeout(7000);
 
     // Get new user balance
     const newBalance = await onPrematchPage.getUserBalance();
